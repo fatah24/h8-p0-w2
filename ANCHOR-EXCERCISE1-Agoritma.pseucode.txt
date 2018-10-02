@@ -1,0 +1,143 @@
+1. algoritma/pseudocode newton law
+
+diketahui :
+
+ΣF = resultan gaya (Newton)
+m = massa benda (kg)
+a = percepatan benda (m/s2)
+
+ALGORITMA
+ΣF= m x a
+
+pseudocode : 
+
+Read (“resultan gaya”)
+save (“ΣF”)without any value
+
+
+Read (“massa benda”)
+save (“m”)with any value
+
+
+Read (“percepatan benda”)
+save (“a”)with any value
+
+
+CALCULATE “m” times “a”
+SET “ΣF” value with calculation result
+
+DISPLAY “ΣF”
+============================================================
+
+
+
+2. algoritma/pseudocode TAHUN KABISAT
+
+ALGORITMA diketahui : 
+
+1. Jika angka tahun itu habis dibagi 400, maka tahun itu sudah pasti tahun kabisat.
+2. Jika angka tahun itu tidak habis dibagi 400 tetapi habis dibagi 100, maka tahun itu sudah pasti bukan merupakan tahun kabisat.
+3. Jika angka tahun itu tidak habis dibagi 400, tidak habis dibagi 100 akan tetapi habis dibagi 4, maka tahun itu merupakan tahun kabisat.
+4. Jika angka tahun tidak habis dibagi 400, tidak habis dibagi 100, dan tidak habis dibagi 4, maka tahun tersebut bukan merupakan tahun kabisat.
+
+*kesimpulan jika angka tahun habis dibagi 4 “maka kabisat”, selain itu “bukan kabisat”
+
+pseodocode :
+
+READ (“tahun”)
+Save (“TH”)
+
+IF (TH%4==0)
+Then th==“kabisat”
+
+Else 
+TH==“bukan kabisat” 
+============================================================
+
+
+3. algoritma/pseudocode LAUNDRI FOXIE
+
+
+ALGORITMA diketahui: 
+
+1. start
+
+2. Simpan nilai "baju level" dengan angka 0
+
+3. Ulangi step 3 selama "baju level" masih dibawah 20. Jika "baju level" sudah >= 20, lanjut ke step    4 
+
+4. Tambah "baju level" dengan 1, agar semakin mendekati batas perulangan. Kembali ke step 2.
+
+5. Tampilkan "tercuci", berarti baju sudah tercuci semua !
+
+
+
+pseudocode
+
+WHILE "baju level"
+  DO "cuci"
+
+
+STORE "baju level" with 0
+
+WHILE "baju level" <20
+  ADD "baju level" by 1
+
+WHILE "baju level" >=20
+  DO "cuci"
+
+DISPLAY "mensin menyala"
+
+============================================================
+
+
+
+
+
+
+
+4. algoritma/pseudocode PEMERIKSAAN KUKU
+
+
+ALGORITMA 
+
+
+read (kuku panjang)
+save variable "panjang "
+ read (kuku pendek)
+save variable "pendek"
+ read (ukuran kuku)
+save variable "ukuran"
+read (40siswa)
+save variable "siswa"
+
+store "ukuran" without any value
+
+store "siswa" to 1
+while "siswa" <41
+	DISPLAY "siswa" and "ukuran"
+if "ukuran" > 1
+	do "panjang"
+	display "guru akan menghukum"
+else "ukuran" =< 1 
+	do "pendek"
+	display "guru akan menghukum"
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
